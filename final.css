@@ -1,0 +1,135 @@
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 100px;
+    width: 10%px;
+    text-align: center;
+    border: black 5px solid;
+    padding: 50px;
+    background-color: aliceblue;
+}
+ul li{
+    display:inline-flex;
+   margin-left: 6%;
+   padding: 17px; 
+   cursor: pointer;
+}
+body{
+    background-image: url('arbol_Ro.png');
+    background-size: cover;
+    background-color: bisque;
+}
+#boton_color {
+    box-shadow: 4px 4px 4px black;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+#boton_default {
+    box-shadow: 4px 4px 4px black;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+#boton {
+    text-decoration: none;
+    border-radius: 100px;
+}
+#parrafo_de_mi {
+    padding-bottom: 500px;
+    padding: 20px;
+    width: 420px;
+    border: black 5px solid;
+    background-color: white;
+    line-height: 1.1;
+}
+#todo{
+    min-width: 300px;
+    padding-left: 180px;
+    font-family: 'Press Start 2P', cursive;
+}
+.lista{
+    background-image: url('footer.png');
+    font-size: 20px;
+    text-align: center;
+    list-style:none;
+    text-decoration: double;
+    position: relative;
+    width: 150px;
+    height: 50px;
+    border: black 3px solid;
+    border-radius: 2px;
+}
+.lista a{
+    text-decoration: wavy;
+    color:black;
+    
+}
+
+.lista:nth-child(1){
+    margin-bottom: 15px;    
+}
+
+.lista:nth-child(2){
+    margin-bottom: 15px;
+}
+
+.lista:nth-child(3){
+    margin-bottom: 15px;
+}
+
+#menu{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-decoration: double;
+    margin-right: 200px;
+    position: fixed;
+    padding: 5px;
+    padding-bottom: 200px;
+}
+#sobre_mi{
+    padding: 20px;
+    width: 10%min-content;
+    border: 5px black solid;
+    background-color: white;   
+    line-height: 150%;
+    font-size: 20px;
+}
+#selfie{
+    float: right;
+    margin-right: 40%;
+    border: 14px double black;
+    background: #ffffff;
+}
+#hobby{
+    font-size: 18px;    
+    line-height: 200%;
+    padding: 15px;
+    border: 5px black solid;
+    width: 900px;
+    background-color: white;
+}
+footer{
+    height: 100px;
+    background-image: url('footer.png');
+    background-size: cover ;
+    font-size: 20px;   
+    line-height: 200%;
+    padding: 15px;
+    border: 5px black solid;
+    width: 95%;    
+}
+
+#texto_de_footer{
+    float: right;
+    padding: 20px;
+    text-decoration: none;
+    color:black;
+    background-color:red;
+    margin: 10px;
+    background-color: transparent;
+    border: 3px solid black;
+
+}
